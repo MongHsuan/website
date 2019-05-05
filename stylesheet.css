@@ -1,0 +1,78 @@
+body {
+font-family:"heebo";
+font-weight:100;
+}
+
+#myname {
+font-family:"fira sans";
+font-weight:500;
+font-size:24px;
+letter-spacing:1px;
+}
+
+.title {
+font-family:"fira sans";
+letter-spacing:px;
+font-weight:500;
+font-size:16px;
+line-height:;
+margin-top:120px;
+}
+
+.titleinfo {
+font-family:"fira sans";
+font-weight:300;
+font-size:14px;
+line-height:150%;
+}
+
+a:link {
+color: black;
+text-decoration: none;
+}
+
+a:visited {
+color: black;
+}
+
+a:hover {
+color: peru;
+}
+
+a:active {
+color: ;
+}
+
+.workpic {
+position: relative;
+margin-top: 200px;
+margin-bottom:;
+}
+
+.workinfo {
+float: right;
+position: sticky;
+width: 400px;
+margin-top:80px;
+margin-right:100px;
+margin-bottom:100px;
+margin-left: 100px;
+letter-spacing:1px;
+font-family:"heebo";
+font-weight:300;
+font-size:14px;
+}
+
+.smalltext {
+font-size: 12px;
+margin-top: -6px;
+font-family:"heebo";
+font-weight:100;
+}
+
+#back {
+float:left;
+position:relative;
+font-size:40px;
+margin-top:200px;
+}
