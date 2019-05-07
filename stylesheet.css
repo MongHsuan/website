@@ -3,11 +3,32 @@ font-family:"heebo";
 font-weight:100;
 }
 
+iframe {
+width:560;
+height:315;
+max-width:100%;
+}
+
+header {
+width:100%;
+padding-bottom:200px;
+}
+
 #myname {
 font-family:"fira sans";
 font-weight:500;
 font-size:24px;
 letter-spacing:1px;
+
+}
+
+#chinesename {
+font-family: Noto Sans TC;
+font-size:150%;
+float:right;
+position:static;
+margin-right:100px;
+margin-bottom:50px;
 }
 
 .title {
@@ -16,7 +37,8 @@ letter-spacing:px;
 font-weight:500;
 font-size:16px;
 line-height:;
-margin-top:120px;
+margin-top:100px;
+margin-right;
 }
 
 .titleinfo {
