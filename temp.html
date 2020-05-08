@@ -12,13 +12,44 @@
 
 <div class="work">
 
-<p class="title">what's up</p>
-<p class="titleinfo">May 10th - 12th @ Haarlemmerweg 613, Amsterdam</p>
-<img src="pics/event/torpor2.jpeg" width="30%" ></img>
-<img src="pics/event/torpor1.jpeg" width="30%" ></img>
+<p class="title">photographs updates</p>
+<p class="titleinfo">work in progress sharing</p>
+<div>
+	<img class="tempsmall" src="pics/temp/clothes.jpg" onclick="onClick(this)"></img>
+</div>
+
+<div>
+	<img class="tempsmall" src="pics/temp/ceilinglightplasticbag.jpg" onclick="onClick(this)"></img>
+</div>
+
+
+
+<div id="modal01" class="modal" onclick="this.style.display='none'">
+  <span class="close">&times;</span>
+  <div>
+    <img id="img01" class="modal-content">
+  </div>
+</div>
+
 
 </div>
 
-<p id="back"><a href="index.html"><</a></p>
+<p id="back"><a href="index.html"><a></p>
+
+<script>
+
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
 
 </body>
