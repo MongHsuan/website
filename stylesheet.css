@@ -214,6 +214,13 @@ bottom:80px;
 top:100px;
 }
 
+@media only screen and (max-width: 1080px) {
+  .modal-content {
+    width:90%;
+    margin-top:30px;
+    margin-right:;
+    position:sticky;}
+}
 
 .close {
 position: absolute;
@@ -231,14 +238,12 @@ color:#bbb;
 text-decoration:none;
 cursor:pointer:}
 
-
 @media only screen and (max-width: 1080px) {
-  .modal-content {
-    width:100%;
-    margin-top:30px;
-    margin-right:20px;
-    position:sticky;}
+	.close {
+	font-size:120px;
+	margin-top:-60px;}
 }
+
 
 
 
