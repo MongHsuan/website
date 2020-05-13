@@ -25,7 +25,7 @@ margin-left:45px;
 
 @media only screen and (max-width: 767px) { 
 	#myname {
-	font-size:72px;
+	font-size:40px;
 	margin-left:10px;
 	font-weight:300;}
 }
@@ -64,7 +64,7 @@ margin-top:100px;
 
 @media only screen and (max-width: 767px) {
         .title {
-        font-size:22px;}
+        font-size:38px;}
 }
 
 .titleinfo {
@@ -76,7 +76,7 @@ line-height:150%;
 
 @media only screen and (max-width: 767px) {
         .titleinfo {
-        font-size:20px;}
+        font-size:36px;}
 }
 
 a:link {
@@ -123,7 +123,7 @@ font-size:14px;
 
 @media only screen and (max-width: 767px) {
         .workinfo {
-        font-size:20px;
+        font-size:36px;
 	margin-right:10px;
 	margin-left:10px;}
 }
