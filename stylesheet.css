@@ -23,7 +23,7 @@ position: relative;
 margin-left:45px;
 }
 
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 1080px) { 
 	#myname {
 	font-size:72px;
 	margin-left:10px;
