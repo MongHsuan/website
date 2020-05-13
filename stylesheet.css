@@ -19,7 +19,8 @@ font-family:"fira sans";
 font-weight:500;
 font-size:24px;
 letter-spacing:1px;
-
+position: relative;
+margin-left:45px;
 }
 
 #chinesename {
@@ -103,16 +104,21 @@ font-size:40px;
 margin-top:200px;
 }
 
-.tempsmall {
+.tempsmall.portrait{
 cursor: pointer;
 transition: 0.3s; 
-width:10%;
-position:;
+width:100px;
 padding:200px;
 }
 
 .tempsmall:hover {opacity:0.7;}
 
+.tempsmall.landscape {
+cursor:pointer;
+transition: 0.3s;
+height:100px;
+padding:200px;
+}
 
 .modal {
 display:none;
@@ -131,9 +137,11 @@ background-color: rgba(0,0,0,0.9);
 .modal-content {
 margin: auto;
 display: block;
-bottom:100px;
-height:80%;
+position:relative;
+bottom:80px;
+top:100px;
 }
+
 
 .close {
 position: absolute;
@@ -151,7 +159,7 @@ text-decoration:none;
 cursor:pointer:
 
 
-@media only screen and (max-width: 500px) and (max-height: 700px) {
+@media only screen and (max-width: 600px) and (max-height: 700px) {
   .modal-content {
     width:95%;
     right:10px;
