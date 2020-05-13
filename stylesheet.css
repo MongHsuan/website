@@ -23,6 +23,11 @@ position: relative;
 margin-left:45px;
 }
 
+@media only screen and (max-width: 600px) { 
+	#myname {
+	font-size:48px;}
+}
+
 #chinesename {
 font-family: Noto Sans TC;
 font-size:150%;
@@ -32,14 +37,22 @@ margin-right:100px;
 margin-bottom:50px;
 }
 
+@media only screen and (max-width: 600px) {
+	#chinesename {
+	font-size:200%;}
+}
+
 .title {
 font-family:"fira sans";
 letter-spacing:px;
 font-weight:500;
 font-size:16px;
-line-height:;
 margin-top:100px;
-margin-right;
+}
+
+@media only screen and (max-width: 600px) {
+        .title {
+        font-size:32px;}
 }
 
 .titleinfo {
@@ -47,6 +60,11 @@ font-family:"fira sans";
 font-weight:300;
 font-size:14px;
 line-height:150%;
+}
+
+@media only screen and (max-width: 600px) {
+        .titleinfo {
+        font-size:28px;}
 }
 
 a:link {
@@ -66,11 +84,13 @@ a:active {
 color: ;
 }
 
+
 .workpic {
 position: relative;
 margin-top: 200px;
 margin-bottom:;
 }
+
 
 .workinfo {
 float: right;
@@ -86,9 +106,15 @@ font-weight:300;
 font-size:14px;
 }
 
+@media only screen and (max-width: 600px) {
+        .workinfo {
+        font-size:28px;}
+}
+
 .work {
 margin-left:50px;
 }
+
 
 .smalltext {
 font-size: 12px;
@@ -97,11 +123,23 @@ font-family:"heebo";
 font-weight:100;
 }
 
+@media only screen and (max-width: 600px) {
+        .smalltext {
+        font-size:24px;}
+}
+
+
 #back {
 float:left;
 position:relative;
 font-size:40px;
 margin-top:200px;
+margin-left:45px;
+}
+
+@media only screen and (max-width: 600px) {
+        #back {
+        font-size:80px;}
 }
 
 .tempsmall.portrait{
