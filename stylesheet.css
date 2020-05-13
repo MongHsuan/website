@@ -26,9 +26,11 @@ margin-left:45px;
 @media only screen and (max-width: 1080px) { 
 	#myname {
 	font-size:72px;
-	margin-left:10px;
-	font-weight:300;}
+	font-weight:300;
+	margin:10px;
+	position:relative;}
 }
+
 
 #chinesename {
 font-family: Noto Sans TC;
@@ -39,8 +41,10 @@ margin-right:100px;
 margin-bottom:50px;
 }
 
-@media only screen and (max-width: 767px) {
+
+@media only screen and (max-width: 1080px) {
 	#chinesename {
+	position:relative;
 	margin-right:10px;
 	margin-top:-80px;}
 }
@@ -49,7 +53,7 @@ margin-bottom:50px;
 margin-left:45px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1080px) {
         #indexmsg {
         margin-left:10px;}
 }
@@ -62,9 +66,9 @@ font-size:16px;
 margin-top:100px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1080px) {
         .title {
-        font-size:38px;}
+        font-size:48px;}
 }
 
 .titleinfo {
@@ -74,9 +78,9 @@ font-size:14px;
 line-height:150%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1080px) {
         .titleinfo {
-        font-size:36px;}
+        font-size:42px;}
 }
 
 a:link {
@@ -102,7 +106,7 @@ position: relative;
 margin-top: 200px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1080px) {
 	.workpic {
 	width:100%;}
 }
@@ -121,18 +125,17 @@ font-weight:300;
 font-size:14px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1080px) {
         .workinfo {
-        font-size:36px;
-	margin-right:10px;
-	margin-left:10px;}
+        font-size:42px;
+	float:left;}
 }
 
 .work {
 margin-left:50px;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1080px){
 	.work {
 	margin-left:10px;}
 }
@@ -144,9 +147,9 @@ font-family:"heebo";
 font-weight:100;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1080px) {
         .smalltext {
-        font-size:14px;}
+        font-size:36px;}
 }
 
 
@@ -158,9 +161,9 @@ margin-top:200px;
 margin-left:45px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1080px) {
         #back {
-        font-size:80px;
+        font-size:120px;
 	margin-left:10px;
 	margin-top:100px;}
 }
@@ -182,9 +185,9 @@ height:100px;
 padding:200px;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1080px) {
         .tempsmall {
-        margin-left:-60px;}
+        margin-left:-80px;}
 }  
 
 .modal {
@@ -217,6 +220,7 @@ right:30px;
 color: #f1f1f1;
 font-size: 40px;
 transition:0.3s;
+z-index:2;
 }
 
 .close:hover,
@@ -226,9 +230,13 @@ text-decoration:none;
 cursor:pointer:}
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1080px) {
   .modal-content {
     width:90%;
-    margin-right:10px;
-    margin-left:20px;}
+    margin-top:30px;
+    margin-left:50px;
+    position:sticky;}
 }
+
+
+
