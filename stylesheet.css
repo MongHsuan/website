@@ -128,7 +128,8 @@ font-size:14px;
 @media only screen and (max-width: 1080px) {
         .workinfo {
         font-size:42px;
-	float:left;}
+	float:left;
+	margin-left:100px;}
 }
 
 .work {
@@ -232,9 +233,9 @@ cursor:pointer:}
 
 @media only screen and (max-width: 1080px) {
   .modal-content {
-    width:90%;
+    width:100%;
     margin-top:30px;
-    margin-left:50px;
+    margin-right:20px;
     position:sticky;}
 }
 
