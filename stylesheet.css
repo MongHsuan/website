@@ -68,19 +68,19 @@ margin-top:100px;
 
 @media only screen and (max-width: 1080px) {
         .title {
-        font-size:48px;}
+        font-size:32px;}
 }
 
 .titleinfo {
 font-family:"fira sans";
 font-weight:300;
-font-size:20px;
+font-size:14px;
 line-height:150%;
 }
 
 @media only screen and (max-width: 1080px) {
         .titleinfo {
-        font-size:36px;}
+        font-size:28px;}
 }
 
 a:link {
@@ -151,7 +151,7 @@ font-weight:100;
 
 @media only screen and (max-width: 1080px) {
         .smalltext {
-        font-size:36px;}
+        font-size:24px;}
 }
 
 
