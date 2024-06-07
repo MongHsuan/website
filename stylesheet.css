@@ -61,14 +61,14 @@ margin-left:45px;
 
 .title {
 font-family:"fira sans";
-font-weight:500;
-font-size:20px;
-margin-top:100px;
+font-weight: 500;
+font-size: 1.6rem;
+margin-top: 100px;
 }
 
 @media only screen and (max-width: 1080px) {
         .title {
-        font-size:28px;}
+        font-size: 1.6rem;}
 }
 
 .titleinfo {
