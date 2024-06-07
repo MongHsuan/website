@@ -34,18 +34,22 @@ margin-left:45px;
 
 
 #chinesename {
-font-family: Noto Sans TC;
-font-size:200%;
+font-family: "Noto Sans TC";
+font-size:180%;
+font-weight:200;
 float:right;
 position:static;
 margin-right:100px;
 margin-bottom:-50px;
+margin-top:-10px;
 }
 
 
 @media only screen and (max-width: 500px) {
 	#chinesename {
 	position:relative;
+        font-size:160%;
+        font-weight:100;
 	margin-right:10px;
 	margin-top:-40px;
 	}
